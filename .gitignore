@@ -1,0 +1,9 @@
+.DS_Store
+.env
+*.pem
+*.key
+*.log
+notes/
+private/
+therapy-notes/
+Sessions/

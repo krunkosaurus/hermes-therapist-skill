@@ -43,6 +43,23 @@ If someone is at imminent risk of harming themselves or someone else, use real-w
 
 ## Install
 
+### Option 1: npm
+
+Install/copy the skill into your Hermes skills directory with npm:
+
+```bash
+npx hermes-therapist-skill
+```
+
+If you install globally:
+
+```bash
+npm install -g hermes-therapist-skill
+hermes-therapist-skill-install
+```
+
+### Option 2: GitHub
+
 Clone the repo and copy the skill into your Hermes skills directory:
 
 ```bash

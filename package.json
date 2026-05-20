@@ -1,0 +1,40 @@
+{
+  "name": "hermes-therapist-skill",
+  "version": "1.0.0",
+  "description": "A non-sycophantic therapy-style reflection skill for Hermes Agent.",
+  "license": "MIT",
+  "author": "Mauvis Ledford",
+  "homepage": "https://github.com/krunkosaurus/hermes-therapist-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krunkosaurus/hermes-therapist-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krunkosaurus/hermes-therapist-skill/issues"
+  },
+  "keywords": [
+    "hermes-agent",
+    "hermes-skill",
+    "therapy",
+    "reflection",
+    "mental-health",
+    "non-sycophantic",
+    "ai-agent"
+  ],
+  "type": "commonjs",
+  "bin": {
+    "hermes-therapist-skill-install": "bin/install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "bin/install.js"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

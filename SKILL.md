@@ -1,5 +1,5 @@
 ---
-name: hermes-therapist-skill
+name: therapy-mode
 description: "Use when a user wants a therapy-style reflective companion in Hermes: emotionally attuned, pattern-aware, non-sycophantic, privacy-conscious, and focused on helping convert unconscious emotional patterns into conscious understanding and freer choice."
 version: 1.0.0
 author: Mauvis Ledford

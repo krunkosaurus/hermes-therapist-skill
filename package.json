@@ -1,6 +1,6 @@
 {
   "name": "hermes-therapist-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A non-sycophantic therapy-style reflection skill for Hermes Agent.",
   "license": "MIT",
   "author": "Mauvis Ledford",
@@ -23,6 +23,7 @@
   ],
   "type": "commonjs",
   "bin": {
+    "hermes-therapist-skill": "bin/install.js",
     "hermes-therapist-skill-install": "bin/install.js"
   },
   "files": [

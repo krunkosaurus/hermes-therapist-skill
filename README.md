@@ -64,21 +64,23 @@ Clone the repo and copy the skill into your Hermes skills directory:
 
 ```bash
 git clone https://github.com/krunkosaurus/hermes-therapist-skill.git
-mkdir -p ~/.hermes/skills/personality/hermes-therapist-skill
-cp hermes-therapist-skill/SKILL.md ~/.hermes/skills/personality/hermes-therapist-skill/SKILL.md
+mkdir -p ~/.hermes/skills/personality/therapy-mode
+cp hermes-therapist-skill/SKILL.md ~/.hermes/skills/personality/therapy-mode/SKILL.md
 ```
 
 Then start Hermes with the skill preloaded:
 
 ```bash
-hermes -s hermes-therapist-skill
+hermes -s therapy-mode
 ```
 
 Or load it inside an existing Hermes session with:
 
 ```text
-/hermes-therapist-skill
+/therapy-mode
 ```
+
+The npm package/repository is named `hermes-therapist-skill`, but the installed Hermes skill is named `therapy-mode` so the in-session slash command is `/therapy-mode`.
 
 If Hermes adds this repository as a skill tap or registry entry later, prefer the native `hermes skills install` / `hermes skills tap add` flow.
 
